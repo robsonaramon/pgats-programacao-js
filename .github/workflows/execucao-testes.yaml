@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
 
 jobs:
-  e2e-tests:
+  Testes:
     runs-on: ubuntu-latest
 
     steps:
@@ -12,11 +12,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: latest
-
-      - name: Instalando Yarn
-        run: npm install -g yarn
-
-      - name: Instalando dependências
-        run: yarn
+      - name: Instalando Mocha
+        run: npm install -D mocha
       - name: Executando testes
-        run: yarn run Testes
+        run: npx mocha Testes/01-testes.js

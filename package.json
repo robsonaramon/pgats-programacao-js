@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/robsonaramon/pgats-programacao-js/issues"
   },
-  "homepage": "https://github.com/robsonaramon/pgats-programacao-js#readme"
+  "homepage": "https://github.com/robsonaramon/pgats-programacao-js#readme",
+  "devDependencies": {
+    "mocha": "^11.5.0"
+  }
 }
