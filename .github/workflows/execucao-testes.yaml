@@ -18,9 +18,5 @@ jobs:
 
       - name: Instalando dependências
         run: yarn
-
-      - name: Instalando Playwright
-        run: yarn playwright install
-
       - name: Executando testes
         run: yarn run Testes
