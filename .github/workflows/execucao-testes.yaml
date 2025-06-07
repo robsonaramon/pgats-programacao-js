@@ -16,3 +16,6 @@ jobs:
         run: npm install -D mocha
       - name: Executando testes
         run: npx mocha Testes/01-testes.js
+      
+      - name: Executando testes do trabalho final de JS
+        run: npx mocha trabalho/trabalho-final/trabalho-final.js
