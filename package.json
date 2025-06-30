@@ -2,6 +2,7 @@
   "name": "pgats-programacao",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
     "tests": "npx mocha Testes/01-testes.js",
