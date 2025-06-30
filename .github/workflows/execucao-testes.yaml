@@ -20,7 +20,7 @@ jobs:
       - name: 'Instalando dependências do projeto'
         run: yarn install
       - name: Executando testes
-        run: npx mocha Testes/01-testes.js
+        run: yarn run tests
       
       - name: Executando testes do trabalho final de JS
-        run: npx mocha trabalho/trabalho-final/trabalho-final.js
+        run: yarn run finalTests

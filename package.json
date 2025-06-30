@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "tests": "npx mocha Testes/01-testes.js",
+    "finalTests": "npx mocha trabalho/trabalho-final/trabalho-final.js"
   },
   "repository": {
     "type": "git",
